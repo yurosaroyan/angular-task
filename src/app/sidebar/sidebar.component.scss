@@ -1,0 +1,35 @@
+.sidebar {
+    height: 100%;
+    width: 230px;
+    display: block;
+    margin-right: 15px;
+    border-radius: 6px;
+    background: #3b78da;
+}
+.mat-drawer {
+    background: #223fde;
+}
+.nav {
+    padding: 0;
+    li {
+        list-style: none;
+        a {
+            border-radius: 20px;
+            margin-right: 10px 15px 0;
+            width: 200px;
+            display: block;
+            color: #fff;
+            position: relative;
+            font-size: 17px;
+            padding: 10px 13px;
+            cursor: pointer;
+            text-decoration: none;
+            border-bottom: 1px solid #ffffff;
+            margin-bottom: 10px;
+        }
+        a:hover{
+            color: #fff;
+            transition: all .3s ease 0s;
+        }
+    }
+}
